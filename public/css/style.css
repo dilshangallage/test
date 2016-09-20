@@ -37,17 +37,39 @@ font-size: 15px;
 margin-top: 40px;
 }
 
-.done-true {
+.done-true{
 text-decoration: line-through;
-color: grey;
-}
-.done-High {
-
     color: red;
-    -webkit-appearance: js;
-    -moz-appearance: js;
-    appearance: js;
+    font-size: large;
+
 }
+/*.done-true-Mid{*/
+    /*text-decoration: line-through;*/
+    /*color: red;*/
+    /*font-size: medium;*/
+
+/*}*/
+/*.done-true-Low {*/
+    /*text-decoration: line-through;*/
+    /*color: red;*/
+    /*font-size: small;*/
+
+/*}*/
+/*.done-false-High {*/
+    /*color: red;*/
+    /*font-size: large;*/
+
+/*}*/
+/*.done-false-Mid{*/
+    /*color: red;*/
+    /*font-size: medium;*/
+
+/*}*/
+/*.done-false-Low {*/
+    /*color: red;*/
+    /*font-size: small;*/
+
+/*}*/
 
 .archive-control {
 border-bottom: 1px solid rgba(0, 0, 0, 0.1);

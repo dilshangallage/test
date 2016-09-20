@@ -39,7 +39,7 @@
                 <li data-ng-repeat="todo in todos track by $index">
             <div class="col-md-4"><input type="checkbox" data-ng-model="todo.done" data-ng-change="update(todo._id)" ></div>
             <div class="col-md-3"><span class="done-{{ todo.done }}">{{ todo.name }} </span></div>
-                    <div class="col-md-3"><select data-ng-model="todo.done"><option>High</option><option>Mid</option><option>Low</option></select></div>
+                    <div class="col-md-3"><select data-ng-model="todo.prority"><option>High</option><option>Mid</option><option>Low</option></select></div>
              <div class="col-md-2"><button id="wrong" data-ng-click="delete(todo._id)"><img style="width:20px;height:20px;" src="image/wrong.png"></button></div><br>
             </li>
             </ul>

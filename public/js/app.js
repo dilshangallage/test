@@ -1,5 +1,4 @@
 var app = angular.module("MyApp", []);
-//var Promise = require('promise');
 
 app.controller("TodoController",function($scope,$http,Todos){
     $scope.appTitle = "ToDo List";
@@ -12,7 +11,7 @@ app.controller("TodoController",function($scope,$http,Todos){
 
     $scope.addTodo = function() {
 
-        Todos.add( $scope.formData ).then(function(data) {
+        Todos.add( $scope.formData ).success(function(data) {
             $scope.formData =  {};
             $scope.todos = data;
             console.log(data);
